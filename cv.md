@@ -17,11 +17,16 @@ I have no experience in web development yet. I love to learn something new and l
 
 ## Code example
 ```
-function sum(a, b) {
-  return a + b;
+function updateLight(current) {  
+    switch (current) {
+        case 'green':
+            return 'yellow';
+        case 'yellow':
+            return 'red';
+        case 'red':
+            return 'green';
+    }
 }
-let result = sum(1, 2);
-console.log(result);
 ```
 
 ## Experience
