@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(./images/bg.jpg!d);
+    background: url(./images/bg.jpg);
     background-size: cover;
 }
 .avatar {
@@ -34,4 +34,28 @@ header {
    padding: 25px;
    margin-top: 10px ;
    margin-bottom: 10px;
+}
+.rs-logo {
+    width: 100px;
+}
+
+.gh-logo > img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+footer {
+    border-radius: 0 0 27px 27px;
+    background-color: #01A9B4;
+}
+
+time {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
