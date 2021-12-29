@@ -29,3 +29,9 @@ header {
     background-color: #87DFD6;
     border-radius: 27px 27px 0 0;
 }
+.main {
+   background-color: #FBFD8A;
+   padding: 25px;
+   margin-top: 10px ;
+   margin-bottom: 10px;
+}
