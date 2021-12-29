@@ -1,3 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #FFFFFF;
+    background: url(./images/bg.jpg);
+    background-size: cover;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 10% 50%;
+}
+
+.photo > span {
+    display: block;
+}
+
+.style1 {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #87DFD6;
+    border-radius: 27px 27px 0 0;
+}
+.main {
+   background-color: #FBFD8A;
+   padding: 25px;
+   margin-top: 10px ;
+   margin-bottom: 10px;
+}
+.rs-logo {
+    width: 100px;
+}
+
+.gh-logo > img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+footer {
+    border-radius: 0 0 27px 27px;
+    background-color: #01A9B4;
+}
+
+time {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
